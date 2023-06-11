@@ -155,3 +155,28 @@ void main()
 		}
 	}
 }
+
+Name(char* fN, char* lN);
+//add following functions //Getter, Setters
+//Destructor, Default Constructor, Copy Constructor,
+friend ostream& operator<<(ostream& out, const Name& n)
+{
+	out << n.fName << " " << n.lName << endl;
+	return out;
+}
+Name(char* fN, char* lN);
+//add following functions //Getter, Setters
+//Destructor, Default Constructor, Copy Constructor,
+friend ostream& operator<<(ostream& out, const Name& n)
+{
+	out << n.fName << " " << n.lName << endl;
+	return out;
+}
+Name(char* fN, char* lN);
+//add following functions //Getter, Setters
+//Destructor, Default Constructor, Copy Constructor,
+friend ostream& operator<<(ostream& out, const Name& n)
+{
+	out << n.fName << " " << n.lName << endl;
+	return out;
+}
